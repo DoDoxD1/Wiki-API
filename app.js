@@ -6,7 +6,7 @@ const PORT = 3000;
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://arihant:arihant123@cluster0.laxna8i.mongodb.net/wikiDB"
+  "mongodb+srv://arihant:<Password>@cluster0.laxna8i.mongodb.net/wikiDB"
 );
 
 const articleSchema = mongoose.Schema({
